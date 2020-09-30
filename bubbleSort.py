@@ -82,7 +82,7 @@ for i in range(num_bars):
 	drawBar(x,height,blue)
 
 while True:
-    button('Sort', 200-75/2, 200-25, 75 , 50, (230,230,230),(200,200,200))
+    button('Sorted part', 200-75/2, 200-25, 75 , 50, (230,230,230),(200,200,200))
     
     pygame.display.update()
 
