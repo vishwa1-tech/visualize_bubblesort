@@ -20,7 +20,7 @@ font=pygame.font.SysFont('Arial', 30)
 clock=pygame.time.Clock()
 screen.fill((255,255,255)) 
 
-#define bubble sort function
+
 def bubbleSort(arr):
 	elapsed=clock.tick(1)
 
@@ -52,7 +52,7 @@ def bubbleSort(arr):
 				pygame.quit()
 				sys.exit()
 
-#define button function
+
 def button(msg,x,y,w,h,ic,ac):
 	mouse=pygame.mouse.get_pos()
 	click=pygame.mouse.get_pressed()
